@@ -13,7 +13,7 @@ export default function LoginComponent() {
 
   return (
     <div className="login flex items-center justify-center h-screen">
-      <div className="login__form border w-1/3 p-8 rounded-xl">
+      <div className="login__form border w-3/4 lg:w-1/3 p-8 rounded-xl">
         <h2 className="text-center text-3xl mb-12 font-bold">Kirish oynasi</h2>
         <LoginForm />
       </div>
